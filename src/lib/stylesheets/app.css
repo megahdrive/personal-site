@@ -1,0 +1,25 @@
+/* Theming */
+
+body {
+    background-color: #141414;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: wheat;
+}
+
+a:hover {
+    color: wheat;
+}
+
+/* Utility */
+.Page-Content-Card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+}
