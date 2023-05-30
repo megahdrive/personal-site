@@ -33,17 +33,22 @@
 <Description text="Hi, welcome to my website. I'm a fullstack programmer from Michigan. I am interested in Japanese culture and spend my spare time reading manga and fanfiction." />
 
 <div class="HyperLink-Sets">
-    <HyperlinkSet style="grid-row: 1;grid-column: 1;" header="Awesome projects" links={[
+    <HyperlinkSet style="grid-row: 1;grid-column: 1;" header="Awesome websites" links={[
         {"name": "szurubooru", "description": "a polished, danbooru-like imageboard engine", "url": "https://github.com/rr-/szurubooru"},
         {"name": "python-aternos", "description": "an unofficial API for aternos written in python", "url": "https://github.com/DarkCat09/python-aternos"},
-    ]} />
-    
-    <HyperlinkSet style="grid-row: 1;grid-column: 2;" header="Awesome websites" links={[
         {'name': 'wiby.me', "description": "cool web1 search engine", "url": "http://wiby.me/"},
         {'name': "modrinth", "description": "awesome minecraft mod site", "url": "https://www.modrinth.com"},
         {"name": "japanese sfx db", "description": "a database of sounds in anime/manga", "url": "https://gist.github.com/UserUnknownFactor/093a2296c5a4d9ef7b404728ebde94a3"},
         {"name": "earth.nullschool.net", "description": "an awesome mapping of the earth based on realtime weather data", "url": "https://earth.nullschool.net"},
-
+    ]} />
+    
+    <HyperlinkSet style="grid-row: 1;grid-column: 2;" header="My tech" links={[
+        {"name": "JS/TS", "description": "Bad programming language", "url": "https://nodejs.org/en"},
+        {"name": "PHP", "description": "Hypertext preprocessor", "url": "https://php.net"},
+        {"name": "Golang (for web backends/compute)", "description": "The Go programming language", "url": "https://go.dev"},
+        {"name": "Python", "description": "Funny snake language", "url": "https://www.python.org/"},
+        {"name": "C#", "description": "Probably my most experienced language behind Python", "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"},
+        {"name": "Java", "description": "WORA language that is actually pretty good", "url": "https://www.java.com"},
     ]} />
 </div>
 
